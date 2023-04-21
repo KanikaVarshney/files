@@ -1,0 +1,25 @@
+.top {
+      text-align: center;
+      margin-bottom: 60px;
+
+}
+.top a{
+    
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    
+}
+.imgg{
+    border: 1px solid black;
+    margin: 3px;
+}

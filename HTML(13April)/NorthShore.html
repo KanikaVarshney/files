@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+</head>
+<style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .logo{
+        display:flex;
+        
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        background-color: palevioletred;
+        padding-top: 10px;
+    }
+    .names a{
+        padding: 10px;
+        font-size: x-large;
+        font-style: italic;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .logo img{
+        margin-top: 12px;
+    }
+    .main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .main button{
+        background-color:whitesmoke;
+
+    }
+    .main button:hover{
+        background-color: palevioletred;
+    }
+</style>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="nst.jpg" alt="" width="50px" height="40px";>
+            <p style="font-size: x-large; margin-bottom: 20px;"><strong>NST</strong></p>
+        </div>
+        <div class="names" style="padding: 20px;">
+            <a href="#">Tour</a>
+            <a href="#">Pricing</a>
+            <a href="#">Customer</a>
+            <a href="#">Company</a>
+        </div>
+        <button style="background-color: skyblue; border: 2px solid black; border-radius: 20px; height: 40px; width: 140px; margin-top: 12px;">
+            Sign Up
+        </button>
+    </nav>
+    <div style="margin-top: 2px;">
+    <img src="lap.jpeg.webp" height="500px" width="1191"  alt="" srcset="">
+    <div class="main">
+           <div style="font-size: xxx-large; color: white; margin-left: 90px;">WELCOME TO <br></div>
+           <div style="font-size: xxx-large; color: white;">North Shore Technologies</div>
+           <button class="c1" type="button" style="margin-left: 200px; border: 2px solid black; height: 50px; width: 100px;">
+            Know more!
+           </button>
+    </div>
+</div>
+</body>
+</html>
