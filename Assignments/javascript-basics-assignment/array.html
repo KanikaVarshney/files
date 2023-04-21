@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var students=[];
+        function Add()
+        {
+ students.push(document.getElementById("studentName").value);
+ 
+        }
+        function GetStudents()
+        { 
+            var list ="";
+            for(var i=0;i<students.length;i++)
+            {
+                
+                list += `<li>${students[i]}</li>`;
+            }
+            
+            document.getElementById("studentList").innerHTML = list;   
+            }
+
+            function Delete(){
+                students.pop(document.getElementById("studentName").value);
+            }
+
+            
+      
+    </script>
+    <div style="background-color: thistle; text-align: center; padding: 40px; border: 4px solid black;">
+    <input type="text" id="studentName"/> 
+     <button type="button" onclick="Add()"> Add Student </buttonc>
+    <button type="button" onclick="GetStudents()"> GetStudents </button>
+    <button type="button" onclick="Delete()">Delete Student</button>
+      
+    <h1> List of Students </h1>
+    <ol id="studentList"> </ol>
+</div>
+</body>
+</html>

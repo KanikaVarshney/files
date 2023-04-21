@@ -1,0 +1,35 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Lukka Chuppi",
+      "posterpath": "https://i.ytimg.com/vi/TbkJ5HhFXdg/maxresdefault.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Bhool Bhulaiya 2",
+      "posterpath": "https://images.cnbctv18.com/wp-content/uploads/2022/05/Bhool-Bhulaiyaa-2-1019x573.jpg?im=FitAndFill,width=1200,height=900"
+    },
+    {
+      "id": 3,
+      "title": "KGF2",
+      "posterpath": "https://i.ytimg.com/vi/lpz45RcCEbI/maxresdefault.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Zero",
+      "posterpath": "https://m.media-amazon.com/images/M/MV5BN2UzNTEwYTEtZjVlZi00Yjg3LWI1MWUtNWE5YTNhNjA3ZjM1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Kedarnath",
+      "posterpath": "https://static.toiimg.com/photo/66424633.cms"
+    },
+    {
+      "id": 6,
+      "title": "14 Phere",
+      "posterpath": "https://static.toiimg.com/photo/msid-84920925/84920925.jpg"
+    }
+  ],
+  "favourites": []
+}
